@@ -1,0 +1,51 @@
+.book-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .book-list-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .book-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list-container li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+  }
+  
+  .book-list-container a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .book-list-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .book-list-container button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-list-container button:hover {
+    background-color: #c82333;
+  }
